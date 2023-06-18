@@ -18,7 +18,7 @@ The widget fetches data from an API endpoint and dynamically generates HTML to r
 
 To use the widget, follow the steps below:
 
-1. Clone the repository:
+1. Clone the repository
 2. Open the `index.html` file in a web browser.
 
 ## Customization
