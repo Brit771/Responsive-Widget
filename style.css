@@ -1,0 +1,116 @@
+ /* Header styling */
+header {
+  font-family: sans-serif;
+  font-size: 3.5vw;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Items styling  */
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 5px;
+}
+
+/* Image styling */
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Item title styling */
+.item h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  /*Truncating titles longer than 3 with an ellipsis (...)*/
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item h3:hover {
+  color: #092dbe;
+  cursor: pointer;
+}
+
+/* Brand name styling */
+.item p {
+  font-family: sans-serif;
+  color: gray;
+  text-align: left;
+  margin: 0;
+}
+
+.item p:hover {
+  color: #092dbe;
+  cursor: pointer;
+}
+
+/* Categories name styling */
+.item cat {
+  font-family: sans-serif;
+  color: #4686ec;
+  text-align: left;
+}
+
+/* Remove link underline */
+.container a{
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* MEDIA QUERIES */
+
+/* Media queries for tablet and desktop */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    }
+
+  .item h3{
+    font-size: 16px;
+  }
+  .item p{
+    font-size: 12px;
+  }
+  .item cat{
+    font-size: 10px;
+  }
+}
+
+
+/* Media queries for mobile */
+@media only screen and (max-width: 767px) {
+  .container-mobile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }  
+  
+  .item h3{
+    font-size: 14px;
+  }
+  .item p{
+    font-size: 11px;
+  }
+  .item cat{
+    font-size: 8px;
+  }
+}
+   
+
