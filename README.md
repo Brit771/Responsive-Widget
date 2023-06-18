@@ -5,10 +5,9 @@ The widget fetches data from an API endpoint and dynamically generates HTML to r
 
 ## Visualization of the final result
 
+![images/desktop and tablet format.JPG](https://github.com/Brit771/Responsive-Widget/blob/e46685f12d91fe9ac115c0033a4a140d2c107920/images/desktop%20and%20tablet%20format.JPG)
 
-![Widget desktop and tablet format](images/desktop and tablet format.JPG)
-
-![Widget desktop and tablet format](images/mobile format.jpg)
+![Widget desktop and tablet format](images/mobile format.jpg)](https://github.com/Brit771/Responsive-Widget/blob/a3989f5e864027b22a80afac7f776636c4b49f41/images/mobile%20format.JPG)
 
 ## Usage
 
