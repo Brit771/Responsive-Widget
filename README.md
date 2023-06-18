@@ -4,7 +4,9 @@ This repository contains the code for a responsive widget that displays recommen
 The widget fetches data from an API endpoint and dynamically generates HTML to render the recommendations.
 
 ## Visualization of the final result
-![Widget desktop and tablet format](images/desktop and tablet format.jpg)
+
+
+![Widget desktop and tablet format](images/desktop and tablet format.JPG)
 
 ![Widget desktop and tablet format](images/mobile format.jpg)
 
